@@ -41,11 +41,6 @@ projects.addEventListener('click', function(){
     smoothScroll('.box2', 1000);
 })
 
-var aims = document.querySelector(".future");
-aims.addEventListener('click', function(){
-    smoothScroll('.box3', 1000);
-})
-
 var section2 = document.querySelector(".back1");
 section2.addEventListener('click', function(){
     smoothScroll('.main', 1000);
@@ -56,7 +51,4 @@ section3.addEventListener('click', function(){
     smoothScroll('.main', 1000)
 })
 
-var section4 = document.querySelector(".back3");
-section4.addEventListener('click', function(){
-    smoothScroll('.main', 1000)
-})
+
