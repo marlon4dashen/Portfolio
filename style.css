@@ -1,7 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+    margin: 0px;
+    /* font-family: sans-serif; */
 }
 .main{
     width: 100%;
@@ -11,6 +10,24 @@
     background: linear-gradient(to right, Cadetblue, BurlyWood);
 }
 
+button{
+    border: none;
+    background-color: rgb(3, 252, 173);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+button:hover{
+    opacity: 50%;
+}
 .logo{
     flex-basis: 20%
 
@@ -33,6 +50,10 @@ nav{
 .nav-links{
     flex: 1;
     text-align: right;
+}
+
+.nav-links ul li:hover{
+    opacity: 50%;
 }
 
 .nav-links ul li{
@@ -60,8 +81,15 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: linear-gradient(to right, Cadetblue, BurlyWood);
 }
 
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 .box3{
     height: 100vh;
     display: flex;
@@ -69,17 +97,11 @@ nav{
     align-items: center;
 } 
 
-.box4{
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}  
+
 
 .intro{
     flex: 1;
     text-align: center;
-    
     margin-top: 150px;
 }
 
@@ -107,6 +129,7 @@ nav{
     
     /* margin-left: 50px; */
     margin-bottom: 20px;
+    margin-top: 0px;
     font-size: 35px;
     padding: 20px;
 }
@@ -115,4 +138,25 @@ nav{
     width: 400px;
     /* margin-left: 50px; */
     line-height: 1.6;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.right h3{
+    margin: 20px auto;
+}
+.back1{
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+.back2{
+    margin-top: 400px;
+    margin-right: 150px;
 }

@@ -46,27 +46,17 @@ aims.addEventListener('click', function(){
     smoothScroll('.box3', 1000);
 })
 
-var fun = document.querySelector(".fun");
-fun.addEventListener('click', function(){
-    smoothScroll('.box4', 1000);
-})
-
-var section2 = document.querySelector(".box1");
+var section2 = document.querySelector(".back1");
 section2.addEventListener('click', function(){
     smoothScroll('.main', 1000);
 })
 
-var section3 = document.querySelector(".box2");
+var section3 = document.querySelector(".back2");
 section3.addEventListener('click', function(){
     smoothScroll('.main', 1000)
 })
 
-var section4 = document.querySelector(".box3");
+var section4 = document.querySelector(".back3");
 section4.addEventListener('click', function(){
-    smoothScroll('.main', 1000)
-})
-
-var section5 = document.querySelector(".box4");
-section5.addEventListener('click', function(){
     smoothScroll('.main', 1000)
 })
