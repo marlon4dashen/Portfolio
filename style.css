@@ -79,7 +79,7 @@ nav{
 .box2{
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background: linear-gradient(to right, Cadetblue, BurlyWood);
 }
