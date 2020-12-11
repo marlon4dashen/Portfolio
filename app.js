@@ -33,7 +33,7 @@ function smoothScroll(target, duration){
 
 var aboutme = document.querySelector(".aboutme");
 aboutme.addEventListener('click', function(){
-    smoothScroll('.box1', 1000);
+    smoothScroll('.about', 1000);
 })
 
 var projects = document.querySelector(".projects");

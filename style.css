@@ -11,9 +11,11 @@
 }
 
 button{
-    border: none;
-    background-color: rgb(3, 252, 173);
-    color: white;
+    border-color: white;
+    border-radius: 5px;
+    border:solid;
+    background-color: transparent;
+    color: brown;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -21,8 +23,6 @@ button{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 5px;
-
 }
 
 button:hover{
@@ -63,11 +63,11 @@ nav{
 }
 
 .nav-links ul li a{
-    color:white;
+    color:antiquewhite;
     text-decoration: none;
 }
 
-.box1{
+.about{
 
     height: 100vh;
     display: flex;
@@ -108,21 +108,25 @@ nav{
 .hello{
     font-weight: normal;
     padding-bottom: 15px;
-    font-size: 35px;
+    font-size: 55px;
     color: white;
 }
 
 .name{
     padding-bottom: 15px;
-    font-size: 40px;
+    font-size: 70px;
     color: white;
 }
 
+.welcome{
+    font-size:35px;
+    color:antiquewhite;
+}
+
 .inner{
-    height: 50vh;
+    height: 70vh;
     display: block;
-    align-items: right;
-    
+    align-items: left;
 }
 
 .header{
@@ -130,16 +134,25 @@ nav{
     margin-bottom: 20px;
     margin-top: 0px;
     font-size: 35px;
-    padding: 20px;
+    padding: 0px auto;
+    color: indianred;
+}
+
+.intropara{
+    list-style: none;
+    padding-left: 0;
 }
 
 .para1{
     width: 400px;
     line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
+    color:darkred;
+    margin-bottom: 20px;
 }
 
-.right{
-    height: 100vh;
+.mcmaster{
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -147,7 +160,13 @@ nav{
 
 }
 
-.right h3{
+
+
+.mcmaster img:hover{
+    opacity: 50%;
+}
+
+.mcmaster h3{
     margin: 20px auto;
 }
 

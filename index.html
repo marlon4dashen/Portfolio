@@ -4,51 +4,63 @@
         <meta charset="UTF-8">
 
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="main">
-            <nav>
+            <nav class="tab">
                 <div class="logo">
                     <img src="src/logo.png">
+                    
                 </div>
                 <div class="nav-links">
                     <ul>
+                        <li><a class="home" href="#">Home</a></li>
                         <li><a class="aboutme" href="#">About me</a></li>
                         <li><a class="projects" href="#">Projects</a></li>
+                        <li><a class="contacts" href="#">Contacts</a></li>
                     </ul>
                 </div>
             </nav>
             <div class="intro">
                 <h1 class="hello">Hello, I'm </h1>
                 <h1 class="name"> Marlon Liu </h1>
-                <p>And welcome to my website</p>
+                <p class="welcome">Welcome to my personal website</p>
             </div>
         </div>
 
-        <div class="box1">
+        <div class="about">
             <div class="inner">
-                <h2 class="header">Intro To Myself</h2>
-                <ul>
+                <h2 class="header">Get To Know Me</h2>
+                <ul class="intropara">
                     <li class='para1'>
                         I am a third year software engineering student in McMaster University.
                     </li>
                     <li class='para1'>
-                        I am passionate in both front end and back end software developing.
+                        Innovation and creativity is where I stand out and my passion on software development keeps me 
+                        dedicated to life-long learning. Throughout my career, I always practice my professional skills 
+                        from learning new technologies and practicing from personal projects.
                     </li>
                     <li class='para1'>
-                        The languages I am familiar with include java, python, c and javascript. I am also
-                        familiar with frameworks such as vaadins, vue.js for web development and flutter for 
-                        app developments.
+                        Programming languages: Java, C, C++, Python, Go, Matlab, Javascript
                     </li>
                     <li class='para1'>
-                        Recently, I am self-studying machine learning and AI stuffs using python with tensorflow 2.0.
+                        Web development: HTML, CSS
+                    </li>
+                    <li class='para1'>
+                        Frontend framework: Node.js, Vue.js
+                    </li>
+                    <li class='para1'>
+                        Normally in my spare time, I love jogging a lot and hanging out with friends. My hobbies include badminton, piano, ping pong and especially soccer.
                     </li>
                 </ul>
                 
             </div>
-            <div class="right">
-                <img src="src/mcmaster.jpg" alt="">
-                <button class="back1">Go back</button>
+            <div class="mcmaster">
+                <a href="https://www.mcmaster.ca/">
+                    <img src="src/mcmasterenv.png" alt="">
+                </a>
+                <button class="back1"><i class="fa fa-home"></i> Home</button>
             </div>
  
         </div>
@@ -76,7 +88,7 @@
                     </p>
                 </div>
                 
-                <button class="back2">Go back</button>
+                <button class="back2"><i class="fa fa-home"></i> Home</button>
             </div>
 
             <div class="right">
